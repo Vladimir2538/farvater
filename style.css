@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.container {
+   width: 95%;
+   margin: 0 auto;
+   background-color: #E5E5E5; 
+   padding: 28px 28px 42px 28px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+.main {
+    width: 30%;
+    height: 30%;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__photo {
+    width: 65%;
+    border: 3px solid #969696;
+    border-radius: 50%;
+    margin-bottom: 33px;
+}
+.main__name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+.main__info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+}
+.main hr {
+    color: #969696;
+    width: 85%;
+    margin: 60px auto 0;
+}
+.main__phone, .main__mail {
+    width: 22px;
+    margin-right: 21px;
+}
+.main__telegram {
+    width: 28px;
+    margin-right: 18px;
+}
+.main__contacts {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+}
+table {
+    margin: 40px auto 40px;
+}
+tr {
+    height: 65px;
+}
+.main__send {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    background-color: #999696;
+    border-radius: 25px;
+    border: #999696;
+    width: 100%;
+    height: 50px;
+}
+.information {
+    width: 69%;
+}
+.information__about, .information__skills, .information__experience, .information__education, .information__languages, .information__interests {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+.information__about, .information__skills, .information__exp-example, .information__edu-example, .information__languages, .information__interests {
+    padding: 6% 10%;
+}
+
+.information__h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.information__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.information__skills-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+.information__place {
+    display: flex;
+}
+.information__place-pic {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    background: #C4C4C4;
+    border-radius: 16px;
+    width: 96px;
+    height: 96px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 23px 34px 0 0;
+}
+.information__place-details {
+    width: 75%;
+}
+.information__place-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.information__place-short {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+span {
+    font-weight: 500;
+}
+.information__lang-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.information__lang-card {
+    width: 31%;
+    height: 118px;
+    background: #E7E7E7;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 15px 10px 15px;
+    box-sizing: border-box;
+    margin-bottom: 17px;
+}
+.information__lang-card img {
+    margin-right: 12px;
+}
+.smaller {
+    font-size: 15px;
+}
+.information__hobbies {
+    display: flex;
+    justify-content: space-between;
+}
+.information__hobby {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #233558;
+    border-radius: 10px;
+    height: 44px;
+    width: 22%;
+}
+.information hr {
+    color: #969696;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .container {
+        display: block;
+        width: 95%;
+    }
+    .main {
+        width: 100%;
+        margin-bottom: 14px;
+        display: block;
+        padding: 8% 3%;
+        box-sizing: border-box;
+    }
+    .main__part1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .main__part2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .main__photo {
+        width: 32%;
+        margin: 0 auto; 
+    }
+    .main__infoblock {
+        width: 50%;
+    }
+    .main__name, .main__info {
+        text-align: left;
+    }
+    .main hr {
+        width: 70%;
+        margin: 40px 0 0 0;
+        text-align: left;
+    }
+    .main__send {
+        width: 25%;
+        margin: 110px 3% 0 13%;
+    }
+    table {
+        margin: 0 auto 0;
+        width: 45%;
+    }
+    .information {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .container {
+        display: block;
+        width: 95%;
+    }
+    .main {
+        width: 100%;
+        margin-bottom: 14px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .information {
+        width: 100%;
+    }
+    .main__photo {
+        width: 55%;
+    }
+    .main__name {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .main__info {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .main hr {
+        width: 53%;
+    }
+    table {
+        margin: 30px auto 70px;
+    }
+    .main__send {
+        width: 85%;
+    }
+    .information__skills-list {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .information__place-pic {
+        margin-right: 10%;
+    }
+    .information__lang-cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .information__lang-card {
+        width: 238px;
+    }
+    .information__hobbies {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .information__hobby {
+        width: 178px;
+        margin: 14px;
+    }
+} 
