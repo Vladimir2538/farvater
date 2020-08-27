@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.mail {
+    width: 22px;
+height: 18px;
+left: 86px;
+top: 725px;
+background: #000000;
+}
 
+.phone {
+    width: 22px;
+height: 18px;
+left: 86px;
+top: 725px;
+background: #000000;
+}
+
+.telegramm {
+    width: 22px;
+height: 18px;
+left: 86px;
+top: 725px;
+background: #000000;
+}
+.myPhoto {
+    background-image: url(https://sun9-18.userapi.com/c850724/v850724878/15f166/1BGtpiw0jUg.jpg);
+}
 .container {
    width: 95%;
    margin: 0 auto;
@@ -22,37 +47,41 @@
     flex-direction: column;
     align-items: center;
 }
-.main__photo {
+.photo {
     width: 65%;
     border: 3px solid #969696;
     border-radius: 50%;
     margin-bottom: 33px;
 }
-.main__name {
+.name {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 32px;
     line-height: 37px;
 }
-.main__info {
+.info {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 23px;
 }
-.main hr {
+.hr {
     color: #969696;
     width: 85%;
     margin: 60px auto 0;
 }
-.main__phone, .main__mail {
+.mail {
     width: 22px;
     margin-right: 21px;
 }
-.main__telegram {
+.phone {
+    width: 22px;
+    margin-right: 21px;
+}
+.telegram {
     width: 28px;
     margin-right: 18px;
 }
-.main__contacts {
+.contacts {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -64,7 +93,7 @@ table {
 tr {
     height: 65px;
 }
-.main__send {
+.send {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -79,37 +108,86 @@ tr {
 .information {
     width: 69%;
 }
-.information__about, .information__skills, .information__experience, .information__education, .information__languages, .information__interests {
+.about {
     background-color: #FFFFFF;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
     margin-bottom: 14px;
 }
-.information__about, .information__skills, .information__exp-example, .information__edu-example, .information__languages, .information__interests {
+.skills {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+.experience {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+.education {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+.languages {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+.interests {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+.interests {
+    padding: 6% 10%;
+}
+.languages {
     padding: 6% 10%;
 }
 
-.information__h2 {
+.example {
+    padding: 6% 10%;
+}
+
+.example {
+    padding: 6% 10%;
+}
+
+
+.skills  {
+    padding: 6% 10%;
+}
+
+.about {
+    padding: 6% 10%;
+}
+.title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
 }
-.information__text {
+.text {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
 }
-.information__skills-list {
+.list {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 21px;
 }
-.information__place {
+.place {
     display: flex;
 }
-.information__place-pic {
+.pic {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 64px;
@@ -124,17 +202,17 @@ tr {
     justify-content: center;
     margin: 23px 34px 0 0;
 }
-.information__place-details {
+.details {
     width: 75%;
 }
-.information__place-title {
+.place-title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 5px;
 }
-.information__place-short {
+.short {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -144,11 +222,11 @@ tr {
 span {
     font-weight: 500;
 }
-.information__lang-cards {
+.cards {
     display: flex;
     justify-content: space-between;
 }
-.information__lang-card {
+.card {
     width: 31%;
     height: 118px;
     background: #E7E7E7;
@@ -159,17 +237,17 @@ span {
     box-sizing: border-box;
     margin-bottom: 17px;
 }
-.information__lang-card img {
+.card img {
     margin-right: 12px;
 }
 .smaller {
     font-size: 15px;
 }
-.information__hobbies {
+.hobbies {
     display: flex;
     justify-content: space-between;
 }
-.information__hobby {
+.hobby {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -183,7 +261,7 @@ span {
     height: 44px;
     width: 22%;
 }
-.information hr {
+.hr {
     color: #969696;
     width: 90%;
     text-align: center;
@@ -202,34 +280,37 @@ span {
         padding: 8% 3%;
         box-sizing: border-box;
     }
-    .main__part1 {
+    .part1 {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    .main__part2 {
+    .part2 {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
     }
-    .main__photo {
+    .photo {
         width: 32%;
         margin: 0 auto; 
     }
-    .main__infoblock {
+    .infoblock {
         width: 50%;
     }
-    .main__name, .main__info {
+    .info {
         text-align: left;
     }
-    .main hr {
+    .name {
+        text-align: left;
+    }
+    .hr {
         width: 70%;
         margin: 40px 0 0 0;
         text-align: left;
     }
-    .main__send {
+    .send {
         width: 25%;
         margin: 110px 3% 0 13%;
     }
@@ -256,48 +337,48 @@ span {
     .information {
         width: 100%;
     }
-    .main__photo {
+    .photo {
         width: 55%;
     }
-    .main__name {
+    .name {
         font-size: 38px;
         line-height: 45px;
     }
-    .main__info {
+    .info {
         font-size: 24px;
         line-height: 28px;
     }
-    .main hr {
+    .hr {
         width: 53%;
     }
     table {
         margin: 30px auto 70px;
     }
-    .main__send {
+    .send {
         width: 85%;
     }
-    .information__skills-list {
+    .list {
         font-family: 'Roboto', sans-serif;
         font-size: 22px;
         line-height: 36px;
         text-align: center;
     }
-    .information__place-pic {
+    .place-pic {
         margin-right: 10%;
     }
-    .information__lang-cards {
+    .cards {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .information__lang-card {
+    .card {
         width: 238px;
     }
-    .information__hobbies {
+    .hobbies {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .information__hobby {
+    .hobby {
         width: 178px;
         margin: 14px;
     }
-} 
+}
