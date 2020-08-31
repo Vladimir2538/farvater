@@ -78,7 +78,7 @@ hr {
     text-align: left;
     margin: 30px;
 }
-.send {
+.push {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: #999696;
@@ -169,7 +169,7 @@ hr {
 .place {
     display: flex;
 }
-.appellation {
+.image {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 64px;
@@ -250,7 +250,7 @@ span {
     hr {
         width: 808px;
     }
-    .send {
+    .push {
         margin-right: 100px;
     }
     .container {
@@ -330,7 +330,7 @@ span {
         width: 588px;
 
     }
-    .send {
+    .push {
         width: 85%;
     }
     .list {
