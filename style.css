@@ -43,14 +43,15 @@
     border-radius: 145px;
     margin-bottom: 33px;
 }
-.name {
-    font-family: 'Roboto', sans-serif;
+.myName {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 37px;
 }
 .myInfo {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 20px;
     line-height: 23px;
 }
@@ -72,14 +73,14 @@ hr {
     margin-right: 18px;
 }
 .contacts {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 18px;
     line-height: 21px;
     text-align: left;
     margin: 30px;
 }
 .push {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     margin: 0;
     background-color: #999696;
     width: 250px;
@@ -150,19 +151,20 @@ hr {
     padding: 6% 10%;
 }
 .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
 }
 .text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
 }
 .list {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 18px;
     line-height: 21px;
 }
@@ -170,7 +172,7 @@ hr {
     display: flex;
 }
 .image {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 64px;
     line-height: 75px;
@@ -188,14 +190,14 @@ hr {
     width: 75%;
 }
 .titles {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 5px;
 }
 .specific {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 18px;
     line-height: 21px;
     margin-top: 0;
@@ -221,14 +223,14 @@ hr {
 }
 .informations {
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 .hobbies {
     display: flex;
     justify-content: space-between;
 }
 .hobby {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -335,7 +337,7 @@ span {
         width: 85%;
     }
     .list {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto';
         font-size: 22px;
         line-height: 36px;
         text-align: center;
