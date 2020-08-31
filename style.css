@@ -1,40 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-.mail {
-    width: 22px;
-height: 18px;
-left: 86px;
-top: 725px;
-background: #000000;
+.data hr{
+    width: 284px;
+    height: 0px;
 }
-
-.phone {
-    width: 22px;
-height: 18px;
-left: 86px;
-top: 725px;
-background: #000000;
+.part2 img {
+    margin-right: 20px;
 }
-
-.telegramm {
-    width: 22px;
-height: 18px;
-left: 86px;
-top: 725px;
-background: #000000;
-}
-.myPhoto {
-    background-image: url(https://sun9-18.userapi.com/c850724/v850724878/15f166/1BGtpiw0jUg.jpg);
+.picture{
+    width: 96px;
+    height: 96px;
+    left: 468px;
+    top: 2558px;
+    border-radius: 16px;
+    margin: 23px 34px 0 0;
 }
 .container {
-   width: 95%;
-   margin: 0 auto;
-   background-color: #E5E5E5; 
-   padding: 28px 28px 42px 28px;
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #E5E5E5; 
+    padding: 28px 28px 42px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-.main {
+.primary {
     width: 30%;
     height: 30%;
     background-color: #FFFFFF;
@@ -48,9 +37,10 @@ background: #000000;
     align-items: center;
 }
 .photo {
-    width: 65%;
+    width: 225px;
+    height: 225px;
     border: 3px solid #969696;
-    border-radius: 50%;
+    border-radius: 145px;
     margin-bottom: 33px;
 }
 .name {
@@ -64,10 +54,10 @@ background: #000000;
     font-size: 20px;
     line-height: 23px;
 }
-.hr {
+hr {
     color: #969696;
-    width: 85%;
-    margin: 60px auto 0;
+    width: 754px;
+    margin: 60px 0 0 0;
 }
 .mail {
     width: 22px;
@@ -86,24 +76,22 @@ background: #000000;
     font-size: 18px;
     line-height: 21px;
     text-align: left;
-}
-table {
-    margin: 40px auto 40px;
-}
-tr {
-    height: 65px;
+    margin: 30px;
 }
 .send {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #999696;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    padding: 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
+    margin-top: 27px;
     color: white;
-    background-color: #999696;
-    border-radius: 25px;
-    border: #999696;
-    width: 100%;
-    height: 50px;
 }
 .information {
     width: 69%;
@@ -120,7 +108,7 @@ tr {
     border-radius: 12px;
     margin-bottom: 14px;
 }
-.experience {
+.experienceWork {
     background-color: #FFFFFF;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
@@ -138,28 +126,22 @@ tr {
     border-radius: 12px;
     margin-bottom: 14px;
 }
-.interests {
+.conteiner2 {
     background-color: #FFFFFF;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
     margin-bottom: 14px;
 }
-.interests {
+.conteiner2 {
     padding: 6% 10%;
 }
 .languages {
     padding: 6% 10%;
 }
 
-.example {
+.case {
     padding: 6% 10%;
 }
-
-.example {
-    padding: 6% 10%;
-}
-
-
 .skills  {
     padding: 6% 10%;
 }
@@ -187,7 +169,7 @@ tr {
 .place {
     display: flex;
 }
-.pic {
+.appellation {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 64px;
@@ -205,7 +187,7 @@ tr {
 .details {
     width: 75%;
 }
-.place-title {
+.titles {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -219,14 +201,11 @@ tr {
     margin-top: 0;
     margin-bottom: 5px;
 }
-span {
-    font-weight: 500;
-}
-.cards {
+.tablets {
     display: flex;
     justify-content: space-between;
 }
-.card {
+.tablet {
     width: 31%;
     height: 118px;
     background: #E7E7E7;
@@ -237,10 +216,10 @@ span {
     box-sizing: border-box;
     margin-bottom: 17px;
 }
-.card img {
+.tablet img {
     margin-right: 12px;
 }
-.smaller {
+.informations {
     font-size: 15px;
 }
 .hobbies {
@@ -261,19 +240,24 @@ span {
     height: 44px;
     width: 22%;
 }
-.hr {
-    color: #969696;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
+span {
+    font-weight: 500;
 }
-
-@media screen and (min-width: 992px) and (max-width: 1279px) {
+@media screen and (min-width: 992px) and (max-width: 1279px){
+    .data hr {
+        margin-right: 500px;
+    }
+    hr {
+        width: 808px;
+    }
+    .send {
+        margin-right: 100px;
+    }
     .container {
         display: block;
         width: 95%;
     }
-    .main {
+    .primary {
         width: 100%;
         margin-bottom: 14px;
         display: block;
@@ -285,18 +269,22 @@ span {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        text-align: left
     }
     .part2 {
+        height: 50%;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
+        margin-right: 50px;
     }
     .photo {
-        width: 32%;
+        width: 279px;
+        height: 279px;
         margin: 0 auto; 
     }
-    .infoblock {
+    .data {
         width: 50%;
     }
     .info {
@@ -305,30 +293,19 @@ span {
     .name {
         text-align: left;
     }
-    .hr {
-        width: 70%;
-        margin: 40px 0 0 0;
-        text-align: left;
-    }
-    .send {
-        width: 25%;
-        margin: 110px 3% 0 13%;
-    }
-    table {
-        margin: 0 auto 0;
-        width: 45%;
-    }
     .information {
         width: 100%;
     }
 }
-
 @media screen and (min-width: 320px) and (max-width: 991px) {
+    .data hr{
+        width: 100%;
+    }
     .container {
         display: block;
         width: 95%;
     }
-    .main {
+    .primary {
         width: 100%;
         margin-bottom: 14px;
         padding-top: 10%;
@@ -338,7 +315,8 @@ span {
         width: 100%;
     }
     .photo {
-        width: 55%;
+        width: 302px;
+        height: 302px;
     }
     .name {
         font-size: 38px;
@@ -348,11 +326,9 @@ span {
         font-size: 24px;
         line-height: 28px;
     }
-    .hr {
-        width: 53%;
-    }
-    table {
-        margin: 30px auto 70px;
+    hr {
+        width: 588px;
+
     }
     .send {
         width: 85%;
@@ -363,14 +339,11 @@ span {
         line-height: 36px;
         text-align: center;
     }
-    .place-pic {
-        margin-right: 10%;
-    }
-    .cards {
+    .tablets {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .card {
+    .tablet {
         width: 238px;
     }
     .hobbies {
