@@ -3,129 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Questionnaire</title>
+        <title>To-Do List</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <main class="container">
-            <div class="primary">
-                <div class="part1">
-                    <img class="photo" src="https://sun9-18.userapi.com/c850724/v850724878/15f166/1BGtpiw0jUg.jpg" alt="">
-                    <div class="data">
-                        <h1 class="myName">Владимир Новиков</h1>
-                        <p class="myInfo">программист</p>
-                        <p class="myInfo">19 лет</p>
-                        <p class="myInfo">Саров,Нижегородская обл.</p>
-                        <hr>
+        <main>
+            <div class="conteiner">
+                <div class="hat"></div>
+                <h1 class="title">To-Do List</h1>
+                <div>
+                    <button class="up">
+                    </button>
+                    <button class="down">
+                    </button>
+                </div>
+                <div class="frame">
+                    <div class="function" draggable="true">
+                            <img src="https://sun9-39.userapi.com/f5WDRTn9H7F7Qy3ddee-Y6RDeNfMWMckDn3omQ/Q4TzuxS5rFg.jpg" draggable="false"> 
+                        <input type="text" class="inputText">
+                        <button type="button" class="frameDelete">
+                        </button>
                     </div>
                 </div>
-                <div class="part2">
-                    <div class="myContacts">
-                        <p class="contacts"><img src="https://sun9-42.userapi.com/c857036/v857036464/186988/nObmi7XRw2E.jpg" alt="">vladimir.novikov2000@mail.ru</p>
-                        <p class="contacts"><img src="https://sun9-53.userapi.com/c857036/v857036464/186981/a7BJasqPo1M.jpg" alt="">+9875314806</p>
-                        <p class="contacts"><img src="https://sun9-52.userapi.com/c857036/v857036464/18697a/CeQQRNog9_c.jpg" alt="">@vladimirNovikov</p>
-                    </div>
-                    <button class="push">Написать письмо</button>
-                </div>
-            </div>
-            <div class="information">
-                <div class="about">
-                    <h2 class="title">Обо мне</h2>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Massa eget egestas purus viverra accumsan in. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Suspendisse potenti nullam ac tortor vitae purus faucibus.</p>
-                    <p class="text">Id velit ut tortor pretium. Pretium lectus quam id leo in vitae turpis massa. Tellus integer feugiat scelerisque varius morbi enim nunc. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Et molestie ac feugiat sed lectus. Amet risus nullam eget felis eget nunc lobortis mattis. Nunc pulvinar sapien et ligula ullamcorper.</p>
-                </div>
-                <div class="skills">
-                    <h2 class="title">Профессиональные навыки</h2>
-                    <p class="list"> HTML • CSS • JavaScript</p>
-                </div>
-                <div class="experienceWork">
-                    <div class="case">
-                        <h2 class="title">Опыт работы</h2>
-                        <div class="place">
-                            <p class="image">W</p>
-                            <div class="details">
-                                <h3 class="titles">Название компании</h3>
-                                <p class="specific">должность<br><span>Мес YYYY – Мес YYYY</span><br>Город</p>
-                                <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Massa eget egestas purus viverra accumsan in. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Suspendisse potenti nullam ac tortor vitae purus faucibus.</p> 
-                                <p class="text">Id velit ut tortor pretium. Pretium lectus quam id leo in vitae turpis massa. Tellus integer feugiat scelerisque varius morbi enim nunc. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Et molestie ac feugiat sed lectus. Amet risus nullam eget felis eget nunc lobortis mattis. Nunc pulvinar sapien et ligula ullamcorper.</p>
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="case">
-                        <div class="place">
-                            <img class="picture" src="https://sun1-22.userapi.com/f9eVwI69meFDotjFydZfKViwGTN4ofvBxnnEug/08K73E68LiI.jpg" alt="">
-                            <div class="details">
-                                <h3 class="titles">Название компании</h3>
-                                <p class="specific">должность<br><span>Мес YYYY – Мес YYYY</span><br>Город</p>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Massa eget egestas purus viverra accumsan in. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Suspendisse potenti nullam ac tortor vitae purus faucibus.</p>
-                                <p class="text">Id velit ut tortor pretium. Pretium lectus quam id leo in vitae turpis massa. Tellus integer feugiat scelerisque varius morbi enim nunc. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Et molestie ac feugiat sed lectus. Amet risus nullam eget felis eget nunc lobortis mattis. Nunc pulvinar sapien et ligula ullamcorper.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="education">
-                    <div class="case">
-                        <h2 class="title">Образование</h2>
-                        <div class="place">
-                            <p class="image">S</p>
-                            <div class="details">
-                                <h3 class="titles">Учебное заведение</h3>
-                                <p class="specific">должность<br><span>Мес YYYY – Мес YYYY</span><br>Город</p>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Massa eget egestas purus viverra accumsan in. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Suspendisse potenti nullam ac tortor vitae purus faucibus.</p>
-                                <p class="text">Id velit ut tortor pretium. Pretium lectus quam id leo in vitae turpis massa. Tellus integer feugiat scelerisque varius morbi enim nunc. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Et molestie ac feugiat sed lectus. Amet risus nullam eget felis eget nunc lobortis mattis. Nunc pulvinar sapien et ligula ullamcorper.</p>
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="case">
-                        <div class="place">
-                            <img class="picture" src="https://sun9-25.userapi.com/6yfL-rLoxKRbxT3L3QKFyYPKeLhEddWT4_-QMA/2b0BLOuAYEg.jpg" alt="">
-                            <div class="details">
-                                <h3 class="titles">Учебное заведение</h3>
-                                <p class="specific">должность<br><span>Мес YYYY – Мес YYYY</span><br>Город</p>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue neque gravida in fermentum et sollicitudin ac. Massa eget egestas purus viverra accumsan in. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Suspendisse potenti nullam ac tortor vitae purus faucibus.</p>
-                                <p class="text">Id velit ut tortor pretium. Pretium lectus quam id leo in vitae turpis massa. Tellus integer feugiat scelerisque varius morbi enim nunc. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Et molestie ac feugiat sed lectus. Amet risus nullam eget felis eget nunc lobortis mattis. Nunc pulvinar sapien et ligula ullamcorper.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="languages">
-                    <h2 class="title">Знание языков</h2>
-                    <div class="tablets">
-                        <div class="tablet">
-                            <img src="https://sun9-55.userapi.com/c857036/v857036464/186962/XJHBEesWTCo.jpg" alt="">
-                            <div class="details">
-                                <p class="specific"><b>Русский</b></p>
-                                <p class="informations">Родной</p>
-                            </div>
-                        </div>
-                        <div class="tablet">
-                            <img src="https://sun9-3.userapi.com/c857036/v857036464/18695b/hpRwBc_lB3U.jpg" alt="">
-                            <div class="details">
-                                <p class="specific"><b>Английский</b></p>
-                                <p class="informations">Свободно разговариваю</p>
-                            </div>
-                        </div>
-                        <div class="tablet">
-                            <img src="https://sun9-12.userapi.com/c857036/v857036464/186969/cBPb32q0yQY.jpg" alt="">
-                            <div class="details">
-                                <p class="specific"><b>Немецкий</b></p>
-                                <p class="informations">Читаю техническую литературу</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="conteiner2">
-                    <h2 class="title">Интересы</h2>
-                    <div class="hobbies">
-                        <p class="hobby">Теннис</p>
-                        <p class="hobby">Компьютер</p>
-                        <p class="hobby">футбол</p>
-                        <p class="hobby">волейбол</p>
-                    </div>
-                </div>
+                <button type="button" class="add"><span class="plus">+</span>Добавить</button>
             </div>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>

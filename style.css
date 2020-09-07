@@ -1,360 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-.data hr{
-    width: 284px;
-    height: 0px;
-}
-.part2 img {
-    margin-right: 20px;
-}
-.picture{
-    width: 96px;
-    height: 96px;
-    left: 468px;
-    top: 2558px;
-    border-radius: 16px;
-    margin: 23px 34px 0 0;
-}
-.container {
-    width: 95%;
-    margin: 0 auto;
-    background-color: #E5E5E5; 
-    padding: 28px 28px 42px 28px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.primary {
-    width: 30%;
-    height: 30%;
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    text-align: center;
-    padding-top: 6%;
-    padding-bottom: 6%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.photo {
-    width: 225px;
-    height: 225px;
-    border: 3px solid #969696;
-    border-radius: 145px;
-    margin-bottom: 33px;
-}
-.myName {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 37px;
-}
-.myInfo {
-    font-family: 'Roboto';
-    font-size: 20px;
-    line-height: 23px;
-}
-hr {
-    color: #969696;
-    width: 754px;
-    margin: 60px 0 0 0;
-}
-.mail {
-    width: 22px;
-    margin-right: 21px;
-}
-.phone {
-    width: 22px;
-    margin-right: 21px;
-}
-.telegram {
-    width: 28px;
-    margin-right: 18px;
-}
-.contacts {
-    font-family: 'Roboto';
-    font-size: 18px;
-    line-height: 21px;
-    text-align: left;
-    margin: 30px;
-}
-.push {
-    font-family: 'Roboto';
-    margin: 0;
-    background-color: #999696;
-    width: 250px;
-    height: 50px;
-    border-radius: 25px;
-    border: 0;
-    padding: 0;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    margin-top: 27px;
-    color: white;
-}
-.information {
-    width: 69%;
-}
-.about {
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    margin-bottom: 14px;
-}
-.skills {
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    margin-bottom: 14px;
-}
-.experienceWork {
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    margin-bottom: 14px;
-}
-.education {
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    margin-bottom: 14px;
-}
-.languages {
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    margin-bottom: 14px;
-}
-.conteiner2 {
-    background-color: #FFFFFF;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    margin-bottom: 14px;
-}
-.conteiner2 {
-    padding: 6% 10%;
-}
-.languages {
-    padding: 6% 10%;
-}
 
-.case {
-    padding: 6% 10%;
-}
-.skills  {
-    padding: 6% 10%;
-}
-
-.about {
-    padding: 6% 10%;
-}
-.title {
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-}
-.text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-}
-.list {
-    font-family: 'Roboto';
-    font-size: 18px;
-    line-height: 21px;
-}
-.place {
-    display: flex;
-}
-.image {
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 75px;
-    background: #C4C4C4;
-    border-radius: 16px;
-    width: 96px;
-    height: 96px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 23px 34px 0 0;
-}
-.details {
-    width: 75%;
-}
-.titles {
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 5px;
-}
-.specific {
-    font-family: 'Roboto';
-    font-size: 18px;
-    line-height: 21px;
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-.tablets {
-    display: flex;
-    justify-content: space-between;
-}
-.tablet {
-    width: 31%;
-    height: 118px;
-    background: #E7E7E7;
-    border-radius: 10px;
-    display: flex;
-    align-items: flex-start;
-    padding: 20px 15px 10px 15px;
+.conteiner {
+    font-family: 'Roboto', sans-serif;
+    margin: 20vh auto;
+    width: 336px;
+    border: 1px solid #C4C4C4;
     box-sizing: border-box;
-    margin-bottom: 17px;
+    border-radius: 10px;
 }
-.tablet img {
-    margin-right: 12px;
+
+.hat {
+    height: 28px;
+    background-color: #FFDC40;
+    border-radius: 9px 9px 0 0;
 }
-.informations {
-    font-size: 15px;
-    font-family: 'Roboto';
+
+.title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
 }
-.hobbies {
+
+.down {
+    margin-left: 280px;
+    width: 25px;
+    height: 15px;
+    margin-bottom: 11px;
+    background-image: url(https://sun1-19.userapi.com/8PSvsHW7HyK6XfE2hAZjLAifSeghprjxR0h6Pw/q-L6BXdrd-8.jpg);
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.down:hover {
+    background-image: url(https://sun1-20.userapi.com/E2LZ8qIkDGV0Jp5LpyT3EkalIP8SJfmYnMzsVA/sH6fEAqUgkY.jpg);
+}
+
+.up {
+    margin-left: 280px;
+    width: 25px;
+    height: 15px;
+    margin-bottom: 11px;
+    display: none;
+    background-image: url(https://sun1-20.userapi.com/qBB6Hf-nJxSvorKCNlgquw3OGtvoTLEyAq7W0A/HZYSvbEch40.jpg);
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.up:hover {
+    background-image: url(https://sun1-26.userapi.com/NVY9JRSuFx0yaADmafLSTmtarNiiZ7g-JRZ3SA/JxylUJLwdxc.jpg);
+}
+.plus {
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    background-color: #9953F1;
+    border-radius: 71px;
+    box-sizing: border-box;
+    width: 42px;
+    height: 42px;
+    display: block;
+    padding-top: 13px;
+}
+
+.add {
+    width: 150px;
+    height: 42px;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #833AE0;
+    border: 1px solid #833AE0;
+    box-sizing: border-box;
+    border-radius: 71px;
     display: flex;
     justify-content: space-between;
-}
-.hobby {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    color: white;
-    background: #233558;
+    padding: 0 28px 0 0;
+    margin: 20px auto 19px;
+    outline: none;
+}
+.add:hover {
+    cursor: pointer;
+}
+.frame {
+    clear: both;
+    border: 1px solid #C4C4C4;
     border-radius: 10px;
-    height: 44px;
-    width: 22%;
+    margin: 0 22px 0 28px;
 }
-span {
-    font-weight: 500;
-}
-@media screen and (min-width: 992px) and (max-width: 1279px){
-    .data hr {
-        margin-right: 500px;
-    }
-    hr {
-        width: 808px;
-    }
-    .push {
-        margin-right: 100px;
-    }
-    .container {
-        display: block;
-        width: 95%;
-    }
-    .primary {
-        width: 100%;
-        margin-bottom: 14px;
-        display: block;
-        padding: 8% 3%;
-        box-sizing: border-box;
-    }
-    .part1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: left
-    }
-    .part2 {
-        height: 50%;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: center;
-        margin-right: 50px;
-    }
-    .photo {
-        width: 279px;
-        height: 279px;
-        margin: 0 auto; 
-    }
-    .data {
-        width: 50%;
-    }
-    .info {
-        text-align: left;
-    }
-    .name {
-        text-align: left;
-    }
-    .information {
-        width: 100%;
-    }
-}
-@media screen and (min-width: 320px) and (max-width: 991px) {
-    .data hr{
-        width: 100%;
-    }
-    .container {
-        display: block;
-        width: 95%;
-    }
-    .primary {
-        width: 100%;
-        margin-bottom: 14px;
-        padding-top: 10%;
-        padding-bottom: 10%;
-    }
-    .information {
-        width: 100%;
-    }
-    .photo {
-        width: 302px;
-        height: 302px;
-    }
-    .name {
-        font-size: 38px;
-        line-height: 45px;
-    }
-    .info {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    hr {
-        width: 588px;
 
-    }
-    .push {
-        width: 85%;
-    }
-    .list {
-        font-family: 'Roboto';
-        font-size: 22px;
-        line-height: 36px;
-        text-align: center;
-    }
-    .tablets {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    .tablet {
-        width: 238px;
-    }
-    .hobbies {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    .hobby {
-        width: 178px;
-        margin: 14px;
-    }
+.function {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 40px;
+    padding: 13px;
+}
+.inputText {
+    border: none;
+    outline: none;
+    height: 16px;
+    width: 190px;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: transparent;
+}
+
+.frameDelete {
+    position: relative;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    background-image: url(https://sun9-75.userapi.com/PXyiDaDEWQS0-WVuhmVfxKcRu0UAdGFACHKWCw/ourqYjL22-4.jpg);
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.frameDelete:hover {
+    cursor: pointer;
+    background-color: #591baa;
+    border: 1px solid #591baa;
+    background-image: url(https://sun1-91.userapi.com/8vi-2z3Cp3EIv5dJRmA7nyavshVdKEE5X3LSwg/YwQTcb3pEWo.jpg);
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.selected {
+    transform: none;
 }
