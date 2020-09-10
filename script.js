@@ -30,8 +30,8 @@ function removeElements(element) {
     }
 }
 deleteButton.addEventListener('click', () => {
-    removeElements(option);
-})
+    option.remove();
+});
 let sortDown = document.querySelector('.down');
 let sortUp = document.querySelector('.up');
 let inputData = document.querySelector('.inputText');
@@ -40,13 +40,13 @@ sortDown.addEventListener('click', () => {
         sortDown.style.display = 'none';
         sortUp.style.display = 'block';
     }
-    let newArr = [];
-    let inputValues = document.querySelectorAll('.inputText');
+    let array = [];
+    let values = document.querySelectorAll('.inputText');
   
-    for ( let i = 0; i < inputValues.length; i++){
-      newArr.push(inputValues[i].value);
+    for ( let i = 0; i < values.length; i++){
+        array.push(values[i].value);
     }
-    newArr.sort((a, b) => {
+    array.sort((a, b) => {
       if (a < b) {
           return -1;
       }
@@ -55,8 +55,8 @@ sortDown.addEventListener('click', () => {
       }
       return 0;
   });
-    for (let k = 0; k < newArr.length; k++) {
-      inputValues[k].value = newArr[k];
+    for (let j = 0; j < array.length; j++) {
+        values[j].value = array[j];
     }
   });
   sortUp.addEventListener('click', () => {
@@ -64,13 +64,13 @@ sortDown.addEventListener('click', () => {
         sortUp.style.display = 'none';
         sortDown.style.display = 'block';
     }
-    let newArr = [];
-    let inputValues = document.querySelectorAll('.inputText');
+    let array = [];
+    let values = document.querySelectorAll('.inputText');
   
-    for ( let i = 0; i < inputValues.length; i++){
-      newArr.push(inputValues[i].value);
+    for ( let i = 0; i < values.length; i++){
+        array.push(values[i].value);
     }
-    newArr.sort((a, b) => {
+    array.sort((a, b) => {
       if (a < b) {
           return 1;
       }
@@ -79,8 +79,8 @@ sortDown.addEventListener('click', () => {
       }
       return 0;
   });
-    for (let k = 0; k < newArr.length; k++) {
-      inputValues[k].value = newArr[k];
+    for (let j = 0; j < array.length; j++) {
+        values[j].value = array[j];
     }
   });
 
@@ -88,7 +88,6 @@ sortDown.addEventListener('click', () => {
 let frame = document.querySelector('.frame');
 frame.addEventListener('dragstart', (event) => {
     event.target.style.backgroundColor = '#FFDC40';
-    event.target.style.mixBlendMode = 'multiply';
     event.target.classList.add('selected');
 });
 frame.addEventListener('drag', (event) => {
@@ -102,21 +101,21 @@ frame.addEventListener('dragend', (event) => {
 frame.addEventListener('dragover', (event) => {
     event.preventDefault();
 
-    let activeElement = frame.querySelector('.selected');
+    let element = frame.querySelector('.selected');
     let currentElement = event.target;
 
-    let isMoveable = activeElement !== currentElement &&
+    let move = element !== currentElement &&
     currentElement.classList.contains('function');
 
-    if (!isMoveable) {
+    if (!move) {
         return;
     }
 
     let nextElement;
-    if (currentElement === activeElement.nextElementSibling) {
+    if (currentElement === element.nextElementSibling) {
         nextElement = currentElement.nextElementSibling;
     } else {
         nextElement = currentElement;
     }
-    frame.insertBefore(activeElement, nextElement);
+    frame.insertBefore(element, nextElement);
 });
