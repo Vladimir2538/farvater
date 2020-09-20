@@ -25,12 +25,13 @@ let option = document.querySelector('.function');
 let deleteButton = document.querySelector('.frameDelete');
 function removeElements(element) {
     let optionElements = document.querySelectorAll('.function');
-    if (optionElements.length > 1) {
+    if (optionElements.length !== 0) {
         element.remove();
     }
 }
 deleteButton.addEventListener('click', () => {
-    option.remove();
+    document.getElementById('find').value = '';
+
 });
 let sortDown = document.querySelector('.down');
 let sortUp = document.querySelector('.up');
